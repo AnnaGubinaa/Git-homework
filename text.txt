@@ -1,1 +1,0 @@
-In the branch feature/imagesAndText we add a line
