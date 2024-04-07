@@ -1,0 +1,53 @@
+/*Подключаем шрифт*/
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+
+th, td {
+    border: 1px solid black;
+    color: #17252A;
+    padding: 3px;
+}
+
+table{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+caption{
+    font-family: Ubuntu, sans-serif;
+    font-size: 22px;
+    text-align: right;
+    color: #41b3a3;
+}
+
+/*Шапка таблицы*/
+thead tr:nth-child(1){ 
+    background-color: #2B7A78;
+}
+thead tr:nth-child(2){
+    background-color: #3aafa9;
+}
+
+
+tbody td:nth-child(2n) {
+    background-color: #6E6658; /* Цвет четных строк */
+}
+
+tbody td:nth-child(2n+1) {  
+    background-color: #4F4A41; /*Цвет нечетных строк*/
+}
+
+/*Цвет ячеек на пересечении*/
+tbody #thirdrdrow, #fifthcol, #eighthcol{
+    background-color: #E7717D 
+}
+
+/*Выделяем одинаковые числа*/
+.samenumbers{
+    background-color: #65CCB8;
+}
+.bold{
+    font-weight: bold;
+}
