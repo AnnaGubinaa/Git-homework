@@ -1,2 +1,2 @@
-In hotfix/html we add another line
-one more line
+In the branch feature/imagesAndText we add a line
+...
